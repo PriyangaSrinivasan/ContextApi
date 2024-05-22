@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { mycontext } from "../App";
 
-
 const Cart = () => {
   const [data, setData] = useContext(mycontext);
   const totalPrice = data.reduce(
@@ -103,8 +102,7 @@ const Cart = () => {
                           className="btn "
                           onClick={() => removeproduct(element)}
                         >
-                      Remove
-                       
+                          Remove
                         </button>
                       </div>
                     </div>
