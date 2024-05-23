@@ -109,9 +109,14 @@ const Cart = () => {
                   </div>
                 </div>
               </div>
+              
             );
           })}
         </div>
+        <hr />
+                <div className="quantity">Total Quantity:{totalQuantity}</div><br />
+                <div className="price">Total Price:{totalPrice}</div>
+                <hr />
       </div>
     </div>
   );
